@@ -369,16 +369,15 @@
       </div>
       <div>
 
-        <label class="modal-form-field-footer">
+        <form class="modal-form-field-footer" action="">
           <spanp class="subscribe-footer">Subscribe</spanp>
           <span class="subscribe-input-footer">
             <input type="email" name="user_email" class="modal-form-input-footer" placeholder="E-mail">
-            <button type="submit" class="modal-form-submit-footer">Subscribe</button>
-            <svg class="modal-form-submit-icon-footer">
-              <use href="./images/sprite.svg#icon-telega"></use>
-            </svg>
+            <button type="submit" class="modal-form-submit-footer">Subscribe<svg class="modal-form-submit-icon-footer">
+                <use href="./images/sprite.svg#icon-telega"></use>
+              </svg></button>
           </span>
-        </label>
+        </form>
       </div>
     </div>
   </footer>
@@ -424,13 +423,13 @@
           </span>
 
         </label>
-        <label class="modal-form-field">
+        <label class="modal-form-field modal-form-comment">
           <span class="modal-form-input-desc"> Comment </span>
           <textarea name="user_message" class="modal-form-msg" placeholder="Text input"></textarea>
         </label>
         <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check visually-hidden">
-        <label for="user-policy" class="modal-form-check-desc">I accept the terms and conditions of the&nbsp;<a
-            href="">Privacy
+        <label for="user-policy" class="modal-form-check-desc">I accept the terms and conditions of the&nbsp;<a href=""
+            class="privacy-link">Privacy
             Policy</a></label>
         <button type="submit" class="modal-form-submit">Send</button>
       </form>
